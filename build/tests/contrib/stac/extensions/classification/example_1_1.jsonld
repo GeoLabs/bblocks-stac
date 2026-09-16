@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld",
   "type": "Collection",
   "id": "103001005D31F500",
   "stac_version": "1.0.0",

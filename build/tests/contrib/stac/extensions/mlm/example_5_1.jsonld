@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
   "$comment": "Demonstrate the use of MLM with both EO and Raster extensions using complementary bands details to describe the Model Asset by band name reference.",
   "stac_version": "1.0.0",
   "stac_extensions": [

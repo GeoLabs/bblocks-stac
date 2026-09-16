@@ -6,7 +6,7 @@
       "$ref": "https://schemas.stacspec.org/v1.1.0/collection-spec/json-schema/collection.json"
     },
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.json"
+      "$ref": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.json"
     },
     {
       "type": "object",

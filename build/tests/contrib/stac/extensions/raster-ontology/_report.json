@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.contrib.stac.extensions.raster-ontology - STAC Raster Extension Ontology",
   "bblockName": "STAC Raster Extension Ontology",
   "bblockId": "ogc.contrib.stac.extensions.raster-ontology",
-  "generated": "2026-09-11T22:57:09.102839+00:00",
+  "generated": "2026-09-16T14:24:18.215923+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/raster-ontology/example_1_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/raster-ontology/example_1_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/raster-ontology/example_1_1.ttl",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -41,7 +41,7 @@
           "entries": [
             {
               "isError": false,
-              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/raster-ontology/ontology.ttl\n - /github/workspace/_sources/extensions/raster-ontology/skos.ttl"
+              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/raster-ontology/skos.ttl\n - /github/workspace/_sources/extensions/raster-ontology/ontology.ttl"
             },
             {
               "op": "shacl-report",
@@ -53,20 +53,7 @@
             {
               "shaclFile": "_sources/extensions/raster-ontology/shapes.shacl",
               "focusNodes": {
-                "raster:SpatialResolutionShape": {
-                  "nodes": []
-                },
-                "raster:ScaleShape": {
-                  "nodes": [
-                    "ex:B4-band"
-                  ]
-                },
-                "raster:SamplingShape": {
-                  "nodes": [
-                    "ex:B4-band"
-                  ]
-                },
-                "raster:HistogramShape": {
+                "raster:HistogramUsageShape": {
                   "nodes": []
                 },
                 "raster:OffsetShape": {
@@ -74,15 +61,28 @@
                     "ex:B4-band"
                   ]
                 },
+                "raster:SpatialResolutionShape": {
+                  "nodes": []
+                },
+                "raster:SamplingShape": {
+                  "nodes": [
+                    "ex:B4-band"
+                  ]
+                },
+                "raster:ScaleShape": {
+                  "nodes": [
+                    "ex:B4-band"
+                  ]
+                },
                 "raster:BitsPerSampleShape": {
                   "nodes": []
                 },
-                "raster:HistogramUsageShape": {
+                "raster:HistogramShape": {
                   "nodes": []
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/raster-ontology/shapes.shacl:\n - Shape raster:SpatialResolutionShape: *none*\n - Shape raster:ScaleShape: ex:B4-band\n - Shape raster:SamplingShape: ex:B4-band\n - Shape raster:HistogramShape: *none*\n - Shape raster:OffsetShape: ex:B4-band\n - Shape raster:BitsPerSampleShape: *none*\n - Shape raster:HistogramUsageShape: *none*\n"
+              "message": "Focus nodes for _sources/extensions/raster-ontology/shapes.shacl:\n - Shape raster:HistogramUsageShape: *none*\n - Shape raster:OffsetShape: ex:B4-band\n - Shape raster:SpatialResolutionShape: *none*\n - Shape raster:SamplingShape: ex:B4-band\n - Shape raster:ScaleShape: ex:B4-band\n - Shape raster:BitsPerSampleShape: *none*\n - Shape raster:HistogramShape: *none*\n"
             }
           ]
         }
@@ -93,7 +93,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/raster-ontology/example_2_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/raster-ontology/example_2_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/raster-ontology/example_2_1.ttl",
         "exampleIndex": 2,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -124,7 +124,7 @@
           "entries": [
             {
               "isError": false,
-              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/raster-ontology/ontology.ttl\n - /github/workspace/_sources/extensions/raster-ontology/skos.ttl"
+              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/raster-ontology/skos.ttl\n - /github/workspace/_sources/extensions/raster-ontology/ontology.ttl"
             },
             {
               "op": "shacl-report",
@@ -136,32 +136,32 @@
             {
               "shaclFile": "_sources/extensions/raster-ontology/shapes.shacl",
               "focusNodes": {
-                "raster:SpatialResolutionShape": {
+                "raster:HistogramUsageShape": {
+                  "nodes": [
+                    "ex:B4-band"
+                  ]
+                },
+                "raster:OffsetShape": {
                   "nodes": []
                 },
-                "raster:ScaleShape": {
+                "raster:SpatialResolutionShape": {
                   "nodes": []
                 },
                 "raster:SamplingShape": {
                   "nodes": []
                 },
-                "raster:HistogramShape": {
-                  "nodes": []
-                },
-                "raster:OffsetShape": {
+                "raster:ScaleShape": {
                   "nodes": []
                 },
                 "raster:BitsPerSampleShape": {
                   "nodes": []
                 },
-                "raster:HistogramUsageShape": {
-                  "nodes": [
-                    "ex:B4-band"
-                  ]
+                "raster:HistogramShape": {
+                  "nodes": []
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/raster-ontology/shapes.shacl:\n - Shape raster:SpatialResolutionShape: *none*\n - Shape raster:ScaleShape: *none*\n - Shape raster:SamplingShape: *none*\n - Shape raster:HistogramShape: *none*\n - Shape raster:OffsetShape: *none*\n - Shape raster:BitsPerSampleShape: *none*\n - Shape raster:HistogramUsageShape: ex:B4-band\n"
+              "message": "Focus nodes for _sources/extensions/raster-ontology/shapes.shacl:\n - Shape raster:HistogramUsageShape: ex:B4-band\n - Shape raster:OffsetShape: *none*\n - Shape raster:SpatialResolutionShape: *none*\n - Shape raster:SamplingShape: *none*\n - Shape raster:ScaleShape: *none*\n - Shape raster:BitsPerSampleShape: *none*\n - Shape raster:HistogramShape: *none*\n"
             }
           ]
         }

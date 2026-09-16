@@ -59,7 +59,7 @@ a STAC item is a prov:Entity with the "wasGeneratedBy" property defined by PROV-
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/context.jsonld",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/prov/v1.0.0/schema.json"
@@ -190,7 +190,7 @@ A STAC item is a prov:Entity with the "wasGeneratedBy" property defined by PROV-
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/context.jsonld",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/prov/v1.0.0/schema.json"
@@ -357,7 +357,7 @@ A STAC item is a prov:Entity with the "has_provenance" property whose range is a
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/context.jsonld",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/prov/v1.0.0/schema.json"
@@ -472,7 +472,7 @@ description: STAC Collection
 allOf:
 - $ref: https://ogcincubator.github.io/bblock-prov-schema/build/annotated/ogc-utils/prov-entity/schema.yaml
 - anyOf:
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - type: object
   properties:
     stac_extensions:
@@ -484,8 +484,8 @@ allOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/schema.yaml)
 
 
 # JSON-LD Context
@@ -1011,7 +1011,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/context.jsonld)
 
 ## Sources
 
@@ -1022,6 +1022,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/item-prov`
 

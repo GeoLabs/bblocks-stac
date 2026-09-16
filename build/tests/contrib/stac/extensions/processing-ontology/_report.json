@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.contrib.stac.extensions.processing-ontology - STAC Processing Extension Ontology",
   "bblockName": "STAC Processing Extension Ontology",
   "bblockId": "ogc.contrib.stac.extensions.processing-ontology",
-  "generated": "2026-09-11T22:57:09.076608+00:00",
+  "generated": "2026-09-16T14:24:18.189758+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/processing-ontology/example_1_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/processing-ontology/example_1_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/processing-ontology/example_1_1.ttl",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -53,20 +53,12 @@
             {
               "shaclFile": "_sources/extensions/processing-ontology/shapes.shacl",
               "focusNodes": {
-                "processing:DatetimeShape": {
+                "processing:SoftwareShape": {
                   "nodes": [
                     "ex:S1A_IW_GRDH_1SDV_20160822T182823"
                   ]
-                },
-                "processing:ExpressionShape": {
-                  "nodes": []
                 },
                 "processing:LineageShape": {
-                  "nodes": [
-                    "ex:S1A_IW_GRDH_1SDV_20160822T182823"
-                  ]
-                },
-                "processing:LevelShape": {
                   "nodes": [
                     "ex:S1A_IW_GRDH_1SDV_20160822T182823"
                   ]
@@ -76,7 +68,15 @@
                     "ex:S1A_IW_GRDH_1SDV_20160822T182823"
                   ]
                 },
-                "processing:SoftwareShape": {
+                "processing:DatetimeShape": {
+                  "nodes": [
+                    "ex:S1A_IW_GRDH_1SDV_20160822T182823"
+                  ]
+                },
+                "processing:ExpressionShape": {
+                  "nodes": []
+                },
+                "processing:LevelShape": {
                   "nodes": [
                     "ex:S1A_IW_GRDH_1SDV_20160822T182823"
                   ]
@@ -86,7 +86,7 @@
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/processing-ontology/shapes.shacl:\n - Shape processing:DatetimeShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:ExpressionShape: *none*\n - Shape processing:LineageShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:LevelShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:FacilityShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:SoftwareShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:VersionShape: *none*\n"
+              "message": "Focus nodes for _sources/extensions/processing-ontology/shapes.shacl:\n - Shape processing:SoftwareShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:LineageShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:FacilityShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:DatetimeShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:ExpressionShape: *none*\n - Shape processing:LevelShape: ex:S1A_IW_GRDH_1SDV_20160822T182823\n - Shape processing:VersionShape: *none*\n"
             }
           ]
         }
@@ -97,7 +97,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/processing-ontology/example_2_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/processing-ontology/example_2_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/processing-ontology/example_2_1.ttl",
         "exampleIndex": 2,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -140,18 +140,12 @@
             {
               "shaclFile": "_sources/extensions/processing-ontology/shapes.shacl",
               "focusNodes": {
-                "processing:DatetimeShape": {
-                  "nodes": []
-                },
-                "processing:ExpressionShape": {
-                  "nodes": []
-                },
-                "processing:LineageShape": {
+                "processing:SoftwareShape": {
                   "nodes": [
                     "ex:Sentinel2-L2A"
                   ]
                 },
-                "processing:LevelShape": {
+                "processing:LineageShape": {
                   "nodes": [
                     "ex:Sentinel2-L2A"
                   ]
@@ -161,7 +155,13 @@
                     "ex:Sentinel2-L2A"
                   ]
                 },
-                "processing:SoftwareShape": {
+                "processing:DatetimeShape": {
+                  "nodes": []
+                },
+                "processing:ExpressionShape": {
+                  "nodes": []
+                },
+                "processing:LevelShape": {
                   "nodes": [
                     "ex:Sentinel2-L2A"
                   ]
@@ -173,7 +173,7 @@
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/processing-ontology/shapes.shacl:\n - Shape processing:DatetimeShape: *none*\n - Shape processing:ExpressionShape: *none*\n - Shape processing:LineageShape: ex:Sentinel2-L2A\n - Shape processing:LevelShape: ex:Sentinel2-L2A\n - Shape processing:FacilityShape: ex:Sentinel2-L2A\n - Shape processing:SoftwareShape: ex:Sentinel2-L2A\n - Shape processing:VersionShape: ex:Sentinel2-L2A\n"
+              "message": "Focus nodes for _sources/extensions/processing-ontology/shapes.shacl:\n - Shape processing:SoftwareShape: ex:Sentinel2-L2A\n - Shape processing:LineageShape: ex:Sentinel2-L2A\n - Shape processing:FacilityShape: ex:Sentinel2-L2A\n - Shape processing:DatetimeShape: *none*\n - Shape processing:ExpressionShape: *none*\n - Shape processing:LevelShape: ex:Sentinel2-L2A\n - Shape processing:VersionShape: ex:Sentinel2-L2A\n"
             }
           ]
         }

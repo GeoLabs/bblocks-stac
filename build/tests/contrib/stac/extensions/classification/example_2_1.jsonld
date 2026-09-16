@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld",
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://crim-ca.github.io/mlm-extension/v1.0.0/schema.json",

@@ -99,9 +99,9 @@ path	@id	schema
 /summaries/_anyOf/0/not		http://json-schema.org/draft-07/schema
 /summaries/_anyOf/1/minimum		/github/workspace/build/annotated/contrib/stac/collection/schema.yaml
 /summaries/_anyOf/1/maximum		/github/workspace/build/annotated/contrib/stac/collection/schema.yaml
-/assets	https://w3id.org/ogc/stac/core/hasAsset	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
-/assets/href		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
-/assets/title		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
-/assets/description		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
-/assets/type		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
-/assets/roles		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets	https://w3id.org/ogc/stac/core/hasAsset	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets/href		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets/title		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets/description		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets/type		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets/roles		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml

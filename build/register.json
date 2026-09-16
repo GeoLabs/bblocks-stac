@@ -3,20 +3,20 @@
   "abstract": "These [Building Blocks](https://ogcincubator.github.io/bblocks-docs/) provide a validation and documentation wrapper over STAC and extension schemas, and aid in transparent re-use of STAC elements",
   "description": "Allows for validation and testing of STAC examples.\n\n**STAC extends OGC API Records** (i.e. Records is designed to be compatible with the prior STAC mode) - this packaging supports validation of STAC extensions against underlying Records, Features and Common elements.\n\nSupports definition and testing of transformations to/from STAC from other formats.\n\nImplementers can fork this repository and add additional examples in the `tests/` directory of each Building Block and run validation processes locally.\n\nProvides a framework for documentation and testing of additional extensions.\n",
   "sparqlEndpoint": "https://defs-dev.opengis.net/fuseki/sparql",
-  "modified": "2026-09-11T22:56:54.290560",
+  "modified": "2026-09-16T14:23:54.394944",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"a74c9b774c2bdb65777e64b60d1d283ab230f262",
-      "shortCommitId": "\"a74c9b",
-      "date": "2026-09-10T12:53:21+00:00\""
+      "commitId": "\"e9e9cb5c905d4e569b44b4816a663ec450322f6f",
+      "shortCommitId": "\"e9e9cb",
+      "date": "2026-09-14T10:12:51+00:00\""
     }
   },
-  "gitRepository": "https://github.com/ogcincubator/bblocks-stac",
-  "gitHubRepository": "https://github.com/ogcincubator/bblocks-stac/blob/master/",
-  "baseURL": "https://ogcincubator.github.io/bblocks-stac/",
-  "viewerURL": "https://ogcincubator.github.io/bblocks-stac/",
-  "validationReport": "https://ogcincubator.github.io/bblocks-stac/build/tests/report.html",
-  "validationReportJson": "https://ogcincubator.github.io/bblocks-stac/build/tests/report.json",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-stac",
+  "gitHubRepository": "https://github.com/GeoLabs/bblocks-stac/blob/master/",
+  "baseURL": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/",
+  "viewerURL": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/",
+  "validationReport": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/report.html",
+  "validationReportJson": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/report.json",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json",
     "https://ogcincubator.github.io/cross-domain-model/build/register.json",
@@ -50,28 +50,28 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/components/assets-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/components/assets-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/components/assets-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/components/assets-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.components.assets-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.components.assets-ontology"
         }
       }
     },
@@ -101,28 +101,28 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.accuracy-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/accuracy-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/accuracy-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/accuracy-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/accuracy-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.accuracy-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.accuracy-ontology"
         }
       }
     },
@@ -138,28 +138,28 @@
       "dependsOn": [],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.cf-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2025-06-12T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/cf-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf-ontology/",
+      "dateOfLastChange": "2025-06-12",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/cf-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/cf-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/cf-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/cf-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/cf-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/cf-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/cf-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.cf-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.cf-ontology"
         }
       }
     },
@@ -193,28 +193,28 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.classification-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/classification-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/classification-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/classification-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/classification-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/classification-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/classification-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.classification-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.classification-ontology"
         }
       }
     },
@@ -244,7 +244,7 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.eo-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/shapes.shacl"
         ]
       },
       "shaclClosures": [
@@ -252,23 +252,23 @@
       ],
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/eo-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/eo-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/eo-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/eo-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.eo-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.eo-ontology"
         }
       }
     },
@@ -298,7 +298,7 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.mlm-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm-ontology/shapes.shacl"
         ]
       },
       "shaclClosures": [
@@ -306,23 +306,23 @@
       ],
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/mlm-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/mlm-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/mlm-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/mlm-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/mlm-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/mlm-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.mlm-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.mlm-ontology"
         }
       }
     },
@@ -352,7 +352,7 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.osc-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc-ontology/shapes.shacl"
         ]
       },
       "shaclClosures": [
@@ -360,23 +360,23 @@
       ],
       "rules": [],
       "dateTimeAddition": "2025-06-12T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/osc-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/osc-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/osc-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/osc-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/osc-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/osc-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.osc-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.osc-ontology"
         }
       }
     },
@@ -392,28 +392,28 @@
       "dependsOn": [],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.processing-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2025-06-12T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/processing-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing-ontology/",
+      "dateOfLastChange": "2026-08-14",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/processing-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/processing-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/processing-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/processing-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/processing-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/processing-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/processing-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.processing-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.processing-ontology"
         }
       }
     },
@@ -443,7 +443,7 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.raster-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster-ontology/shapes.shacl"
         ]
       },
       "shaclClosures": [
@@ -451,23 +451,23 @@
       ],
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/raster-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/raster-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/raster-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/raster-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/raster-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/raster-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/raster-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/raster-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.raster-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.raster-ontology"
         }
       }
     },
@@ -497,28 +497,28 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.themes-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-ontology/shapes.shacl"
         ]
       },
       "rules": [],
       "dateTimeAddition": "2026-08-25T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-ontology/",
+      "dateOfLastChange": "2026-08-25",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/themes-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/themes-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/themes-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/themes-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.themes-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.themes-ontology"
         }
       }
     },
@@ -537,7 +537,7 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
@@ -545,23 +545,23 @@
       },
       "rules": [],
       "dateTimeAddition": "2025-06-12T00:00:00Z",
-      "dateOfLastChange": "2026-09-11",
-      "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/core-ontology/ontology.ttl",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/",
+      "dateOfLastChange": "2025-06-12",
+      "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/core-ontology/ontology.ttl",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/core-ontology/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/core-ontology/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/core-ontology/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/core-ontology/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/core-ontology/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/core-ontology/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.core-ontology"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.core-ontology"
         }
       }
     },
@@ -577,7 +577,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
         "bblocks://ogc.contrib.stac.core-ontology",
         "bblocks://ogc.contrib.stac.components.assets-ontology"
@@ -595,38 +595,38 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/components/assets/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/components/assets/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/components/assets/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/components/assets/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.components.assets"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.components.assets"
         }
       }
     },
@@ -642,10 +642,10 @@
       "itemClass": "schema",
       "register": "ogc-incubator-building-block-register",
       "version": "1.1.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
-        "bblocks://ogc.ogc-utils.json-link",
         "bblocks://ogc.contrib.stac.core-ontology",
+        "bblocks://ogc.ogc-utils.json-link",
         "bblocks://ogc.contrib.stac.components.assets"
       ],
       "sources": [
@@ -661,38 +661,38 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/collection/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/collection/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/collection/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/collection/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/collection/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/collection/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/collection/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/collection/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/collection/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.collection"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.collection"
         }
       }
     },
@@ -708,13 +708,13 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
-        "bblocks://ogc.geo.features.feature",
         "bblocks://ogc.contrib.stac.components.assets",
         "bblocks://ogc.ogc-utils.json-link",
         "bblocks://ogc.api.records.v1.schemas.recordGeoJSON",
-        "bblocks://ogc.contrib.stac.core-ontology"
+        "bblocks://ogc.contrib.stac.core-ontology",
+        "bblocks://ogc.geo.features.feature"
       ],
       "sources": [
         {
@@ -728,45 +728,45 @@
         "item"
       ],
       "shaclShapes": {
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
-        ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/item/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/item/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/item/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/item/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/item/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/item/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/item/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/item/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/item/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.item"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.item"
         }
       }
     },
@@ -782,7 +782,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator-building-block-register",
       "version": "1.0.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "STAC Specification",
@@ -796,13 +796,13 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
       "dependsOn": [
@@ -810,27 +810,27 @@
         "bblocks://ogc.ogc-utils.json-link"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/collection-v1-0-0/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/collection-v1-0-0/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection-v1-0-0/schema.yaml",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection-v1-0-0/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/collection-v1-0-0/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/collection-v1-0-0/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/collection-v1-0-0/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/collection-v1-0-0/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/collection-v1-0-0/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/collection-v1-0-0/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.collection-v1-0-0"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.collection-v1-0-0"
         }
       }
     },
@@ -846,7 +846,7 @@
       "itemClass": "schema",
       "register": "ogc-incubator-building-block-register",
       "version": "1.1.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "STAC Specification",
@@ -860,40 +860,40 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
       "dependsOn": [
         "bblocks://ogc.contrib.stac.collection"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-1-0/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-1-0/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-1-0/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-1-0/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/collection-v1-1-0/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-1-0/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-1-0/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/collection-v1-1-0/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection-v1-1-0/schema.yaml",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-1-0/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-1-0/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/collection-v1-1-0/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/collection-v1-1-0/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/collection-v1-1-0/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/collection-v1-1-0/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/collection-v1-1-0/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/collection-v1-1-0/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/collection-v1-1-0/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.collection-v1-1-0"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.collection-v1-1-0"
         }
       }
     },
@@ -909,12 +909,12 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "link": "https://github.com/stac-extensions/accuracy",
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
+        "bblocks://ogc.contrib.stac.extensions.accuracy-ontology",
         "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.contrib.stac.extensions.accuracy-ontology"
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "sources": [
         {
@@ -930,48 +930,48 @@
         "dataquality"
       ],
       "shaclShapes": {
+        "ogc.contrib.stac.extensions.accuracy-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy-ontology/shapes.shacl"
+        ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
-        "ogc.contrib.stac.extensions.accuracy-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy-ontology/shapes.shacl"
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/accuracy/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/accuracy/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/accuracy/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/accuracy/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.accuracy"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.accuracy"
         }
       }
     },
@@ -987,11 +987,11 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.2.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
         "bblocks://ogc.contrib.stac.extensions.cf-ontology",
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "sources": [
         {
@@ -1007,47 +1007,47 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.cf-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf-ontology/shapes.shacl"
         ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/cf/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/cf/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/cf/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/cf/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/cf/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/cf/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/cf/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/cf/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/cf/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/cf/",
       "validationPassed": false,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/cf/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/cf/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/cf/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/cf/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/cf/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/cf/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.cf"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.cf"
         }
       }
     },
@@ -1063,12 +1063,12 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "2.0.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "link": "https://github.com/stac-extensions/classification",
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
+        "bblocks://ogc.contrib.stac.item",
         "bblocks://ogc.contrib.stac.extensions.classification-ontology",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "shaclClosures": [
         "../classification-ontology/ontology.ttl"
@@ -1087,47 +1087,47 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
-        "ogc.contrib.stac.extensions.classification-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification-ontology/shapes.shacl"
+        "ogc.api.records.v1.schemas.linkTemplate": [
+          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
         "ogc.geo.features.feature": [
           "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ],
-        "ogc.api.records.v1.schemas.linkTemplate": [
-          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        "ogc.contrib.stac.extensions.classification-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification-ontology/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/classification/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/classification/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/classification/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/classification/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/classification/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/classification/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.classification"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.classification"
         }
       }
     },
@@ -1143,12 +1143,12 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "link": "https://github.com/stac-extensions/eo",
       "dependsOn": [
         "bblocks://ogc.contrib.stac.extensions.eo-ontology",
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "shaclClosures": [
         "../eo-ontology/skos.ttl"
@@ -1168,47 +1168,47 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.eo-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/shapes.shacl"
         ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/eo/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/eo/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/eo/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/eo/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.eo"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.eo"
         }
       }
     },
@@ -1224,11 +1224,11 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
+        "bblocks://ogc.contrib.stac.extensions.osc-ontology",
         "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.contrib.stac.extensions.osc-ontology"
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "shaclClosures": [
         "../osc-ontology/skos.ttl"
@@ -1247,48 +1247,48 @@
         "OSC"
       ],
       "shaclShapes": {
+        "ogc.contrib.stac.extensions.osc-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc-ontology/shapes.shacl"
+        ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
-        "ogc.contrib.stac.extensions.osc-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc-ontology/shapes.shacl"
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/osc/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/osc/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/osc/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/osc/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/osc/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/osc/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/osc/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/osc/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.osc"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.osc"
         }
       }
     },
@@ -1304,11 +1304,11 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "1.2.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
+        "bblocks://ogc.contrib.stac.extensions.processing-ontology",
         "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.contrib.stac.extensions.processing-ontology"
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "sources": [
         {
@@ -1323,48 +1323,48 @@
         "processing"
       ],
       "shaclShapes": {
+        "ogc.contrib.stac.extensions.processing-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing-ontology/shapes.shacl"
+        ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
-        "ogc.contrib.stac.extensions.processing-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing-ontology/shapes.shacl"
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/processing/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/processing/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/processing/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/processing/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/processing/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/processing/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/processing/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/processing/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/processing/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/processing/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/processing/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/processing/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/processing/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/processing/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.processing"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.processing"
         }
       }
     },
@@ -1380,12 +1380,12 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "link": "https://github.com/stac-extensions/raster",
       "dependsOn": [
+        "bblocks://ogc.contrib.stac.item",
         "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.extensions.raster-ontology",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.extensions.raster-ontology"
       ],
       "shaclClosures": [
         "../raster-ontology/skos.ttl"
@@ -1404,47 +1404,47 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
-        "ogc.contrib.stac.extensions.raster-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster-ontology/shapes.shacl"
+        "ogc.api.records.v1.schemas.linkTemplate": [
+          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
         "ogc.geo.features.feature": [
           "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ],
-        "ogc.api.records.v1.schemas.linkTemplate": [
-          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        "ogc.contrib.stac.extensions.raster-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster-ontology/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/raster/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/raster/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/raster/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/raster/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/raster/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/raster/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/raster/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/raster/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/raster/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/raster/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/raster/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/raster/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/raster/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/raster/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.raster"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.raster"
         }
       }
     },
@@ -1460,12 +1460,12 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
         "bblocks://ogc.contrib.stac.extensions.themes-ontology",
         "bblocks://ogc.api.records.v1.schemas.theme",
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection"
       ],
       "sources": [
         {
@@ -1481,40 +1481,40 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.extensions.themes-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-ontology/shapes.shacl"
         ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes/",
       "transforms": [
         {
           "id": "dcat-themes",
           "type": "shacl-af-rule",
-          "ref": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes/transforms/dcat-themes.ttl",
+          "ref": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes/transforms/dcat-themes.ttl",
           "code": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix : <urn:example:shacl#> .\n\n:themeSchemeIdName\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?uriConcept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept; <https://w3id.org/ogc/stac/themes/scheme> ?scheme .\n\t\t\t\t?concept <https://w3id.org/ogc/stac/themes/id> ?conceptId; <https://w3id.org/ogc/stac/themes/name> ?conceptName .\n\t\t\t\tBIND(IRI(CONCAT(?scheme, REPLACE(?conceptId, '.*?::', '/'))) as ?uriConcept)\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n.\n\n:themeSchemeIRI\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?uriConcept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept; <https://w3id.org/ogc/stac/themes/scheme> ?scheme .\n\t\t\t\tFILTER(ISIRI(?concept) && !REGEX(str(?concept), \"^https?://\") && CONTAINS(str(?concept), \"::\"))\n\t\t\t\tBIND(IRI(CONCAT(?scheme, REPLACE(STR(?concept), '.*?::', '/'))) as ?uriConcept)\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n.\n\n:themeConceptIsIRI\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?concept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept .\n\t\t\t\tFILTER(ISIRI(?concept) && REGEX(str(?concept), \"^https?://\"))\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n.",
           "inputs": {
             "mediaTypes": [
@@ -1579,15 +1579,15 @@
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/themes/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/themes/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/themes/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/themes/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.themes"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.themes"
         }
       }
     },
@@ -1601,7 +1601,7 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "GitHub Repository",
@@ -1616,48 +1616,56 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-jq/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-jq/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-jq/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-jq/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-jq/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-jq/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-jq/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-jq/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-jq/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-jq/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-jq/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-jq/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-jq/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-jq/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-jq/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-jq/",
+      "semanticUplift": {
+        "additionalSteps": [
+          {
+            "type": "jq",
+            "code": "walk(\n  if (type == \"object\") and has(\"themes\") then\n  .\"http://www.w3.org/ns/dcat#theme\" = (.themes | map(\n      .scheme as $SCHEME\n      | .concepts | map(\n          if .url then .url else\n              if $SCHEME then\n              \"\\($SCHEME)/\\(.id | sub(\".*?::\"; \"\"))\"\n              else empty end\n          end | {\"@id\": .}\n      )\n      ) | flatten )\n  end\n)\n"
+          }
+        ]
+      },
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/themes-jq/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/themes-jq/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/themes-jq/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/themes-jq/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.themes-jq"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.themes-jq"
         }
       }
     },
@@ -1671,7 +1679,7 @@
       "itemClass": "schema",
       "register": "bblocks-stac",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "GitHub Repository",
@@ -1686,48 +1694,56 @@
       ],
       "shaclShapes": {
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection"
       ],
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-shacl/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-shacl/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-shacl/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-shacl/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-shacl/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-shacl/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-shacl/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-shacl/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/themes-shacl/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/themes-shacl/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-shacl/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-shacl/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/themes-shacl/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/themes-shacl/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-shacl/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/themes-shacl/",
+      "semanticUplift": {
+        "additionalSteps": [
+          {
+            "type": "shacl",
+            "code": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n@prefix : <urn:example:shacl#> .\n\n:themeSchemeIdName\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?uriConcept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept; <https://w3id.org/ogc/stac/themes/scheme> ?scheme .\n\t\t\t\t?concept <https://w3id.org/ogc/stac/themes/id> ?conceptId; <https://w3id.org/ogc/stac/themes/name> ?conceptName .\n\t\t\t\tBIND(IRI(CONCAT(?scheme, REPLACE(?conceptId, '.*?::', '/'))) as ?uriConcept)\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n.\n\n:themeSchemeIRI\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?uriConcept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept; <https://w3id.org/ogc/stac/themes/scheme> ?scheme .\n\t\t\t\tFILTER(ISIRI(?concept) && !REGEX(str(?concept), \"^https?://\") && CONTAINS(str(?concept), \"::\"))\n\t\t\t\tBIND(IRI(CONCAT(?scheme, REPLACE(STR(?concept), '.*?::', '/'))) as ?uriConcept)\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n.\n\n:themeConceptIsIRI\n  a sh:NodeShape ;\n  sh:targetSubjectsOf <https://w3id.org/ogc/stac/themes/schemes> ;\n  sh:rule [\n\t\ta sh:SPARQLRule ;\n\t\tsh:construct \"\"\"\n\t\t\tCONSTRUCT {\n\t\t\t\t$this <http://www.w3.org/ns/dcat#theme> ?concept .\n\t\t\t}\n\t\t\tWHERE {\n\t\t\t\t$this <https://w3id.org/ogc/stac/themes/schemes> ?b .\n\t\t\t\t?b <https://w3id.org/ogc/stac/themes/concepts> ?concept .\n\t\t\t\tFILTER(ISIRI(?concept) && REGEX(str(?concept), \"^https?://\"))\n\t\t\t}\n\t\t\t\"\"\" ;\n\t] ;\n."
+          }
+        ]
+      },
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/themes-shacl/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/themes-shacl/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/themes-shacl/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/themes-shacl/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.themes-shacl"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.themes-shacl"
         }
       }
     },
@@ -1743,7 +1759,7 @@
       "itemClass": "schema",
       "register": "ogcincubator",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "STAC Specification",
@@ -1761,48 +1777,48 @@
         "provenance"
       ],
       "shaclShapes": {
+        "ogc.contrib.stac.core-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
+        ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
-        ],
-        "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
-        ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ]
       },
       "dependsOn": [
-        "bblocks://ogc.ogc-utils.prov-entity",
-        "bblocks://ogc.contrib.stac.item"
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.ogc-utils.prov-entity"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/item-prov/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-prov/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/item-prov/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-prov/schema.yaml",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-prov/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-prov/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/item-prov/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/item-prov/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/item-prov/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/item-prov/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/item-prov/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/item-prov/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.item-prov"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.item-prov"
         }
       }
     },
@@ -1818,7 +1834,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "STAC Specification",
@@ -1831,48 +1847,48 @@
         "item"
       ],
       "shaclShapes": {
+        "ogc.api.records.v1.schemas.linkTemplate": [
+          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
         "ogc.geo.features.feature": [
           "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.api.records.v1.schemas.linkTemplate": [
-          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
       "dependsOn": [
-        "bblocks://ogc.geo.features.feature",
+        "bblocks://ogc.api.records.v1.schemas.recordGeoJSON",
         "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.api.records.v1.schemas.recordGeoJSON"
+        "bblocks://ogc.geo.features.feature"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/item-v1-0-0/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/item-v1-0-0/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-v1-0-0/schema.yaml",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-v1-0-0/",
       "validationPassed": true,
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/item-v1-0-0/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/item-v1-0-0/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/item-v1-0-0/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/item-v1-0-0/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.item-v1-0-0"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.item-v1-0-0"
         }
       }
     },
@@ -1888,7 +1904,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "sources": [
         {
           "title": "STAC Specification",
@@ -1901,49 +1917,49 @@
         "item"
       ],
       "shaclShapes": {
+        "ogc.api.records.v1.schemas.linkTemplate": [
+          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+        ],
         "ogc.geo.features.feature": [
           "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.api.records.v1.schemas.linkTemplate": [
-          "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ]
       },
       "dependsOn": [
-        "bblocks://ogc.geo.features.feature",
+        "bblocks://ogc.api.records.v1.schemas.recordGeoJSON",
         "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.api.records.v1.schemas.recordGeoJSON"
+        "bblocks://ogc.geo.features.feature"
       ],
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-1-0/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-1-0/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-1-0/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-1-0/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/item-v1-1-0/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-1-0/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-1-0/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/item-v1-1-0/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-v1-1-0/schema.yaml",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-1-0/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-1-0/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/item-v1-1-0/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/item-v1-1-0/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/item-v1-1-0/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/item-v1-1-0/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/item-v1-1-0/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/item-v1-1-0/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/item-v1-1-0/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.item-v1-1-0"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.item-v1-1-0"
         }
       }
     },
@@ -1959,14 +1975,14 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "1.4.0",
-      "dateOfLastChange": "2026-09-11",
+      "dateOfLastChange": "2023-12-09",
       "dependsOn": [
-        "bblocks://ogc.contrib.stac.collection",
-        "bblocks://ogc.contrib.stac.item",
-        "bblocks://ogc.contrib.stac.extensions.raster",
-        "bblocks://ogc.contrib.stac.extensions.classification",
         "bblocks://ogc.contrib.stac.extensions.processing",
         "bblocks://ogc.contrib.stac.extensions.eo",
+        "bblocks://ogc.contrib.stac.item",
+        "bblocks://ogc.contrib.stac.collection",
+        "bblocks://ogc.contrib.stac.extensions.classification",
+        "bblocks://ogc.contrib.stac.extensions.raster",
         "bblocks://ogc.contrib.stac.extensions.mlm-ontology"
       ],
       "shaclClosures": [
@@ -1985,81 +2001,81 @@
         "mlm"
       ],
       "shaclShapes": {
+        "ogc.contrib.stac.extensions.processing-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/processing-ontology/shapes.shacl"
+        ],
         "ogc.contrib.stac.core-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
         ],
         "ogc.model.cross-domain.prov": [
           "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
         ],
         "ogc.contrib.stac.components.assets-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
-        ],
-        "ogc.geo.features.feature": [
-          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
         ],
         "ogc.api.records.v1.schemas.linkTemplate": [
           "https://ogcincubator.github.io/bblocks-ogcapi-records/_sources/v1/schemas/linkTemplate/rules.shacl"
         ],
-        "ogc.contrib.stac.extensions.raster-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/raster-ontology/shapes.shacl"
-        ],
-        "ogc.contrib.stac.extensions.classification-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/classification-ontology/shapes.shacl"
-        ],
-        "ogc.contrib.stac.extensions.processing-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/processing-ontology/shapes.shacl"
+        "ogc.geo.features.feature": [
+          "https://opengeospatial.github.io/bblocks/registereditems/geo/features/feature/shapes.shacl"
         ],
         "ogc.contrib.stac.extensions.eo-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/shapes.shacl"
+        ],
+        "ogc.contrib.stac.extensions.classification-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/classification-ontology/shapes.shacl"
+        ],
+        "ogc.contrib.stac.extensions.raster-ontology": [
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/raster-ontology/shapes.shacl"
         ],
         "ogc.contrib.stac.extensions.mlm-ontology": [
-          "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm-ontology/shapes.shacl"
+          "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm-ontology/shapes.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
+      "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/schema.json"
+        "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/schema.yaml",
+        "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/schema.json"
       },
-      "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm/schema.yaml",
-      "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm/context.jsonld",
-      "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/resolvedProperties.json",
-      "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/mlm/",
+      "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm/schema.yaml",
+      "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm/context.jsonld",
+      "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/resolvedProperties.json",
+      "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/mlm/",
       "validationPassed": false,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/mlm/",
+      "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/mlm/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/markdown/contrib/stac/extensions/mlm/index.md"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/markdown/contrib/stac/extensions/mlm/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/generateddocs/json-full/contrib/stac/extensions/mlm/index.json"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/generateddocs/json-full/contrib/stac/extensions/mlm/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-stac/bblock/ogc.contrib.stac.extensions.mlm"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/bblock/ogc.contrib.stac.extensions.mlm"
         }
       }
     }
   ],
-  "remoteCacheDir": "https://ogcincubator.github.io/bblocks-stac/build/annotated/_cache",
+  "remoteCacheDir": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/_cache",
   "links": [
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-stac/build/register.json",
+      "href": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/register.json",
       "type": "application/json",
       "title": "This Building Blocks Register in JSON format"
     },
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-stac/build/bblocks.ttl",
+      "href": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/bblocks.ttl",
       "type": "text/turtle",
       "title": "This Building Blocks Register in RDF Turtle format"
     },
     {
       "rel": "self",
-      "href": "https://ogcincubator.github.io/bblocks-stac/build/bblocks.jsonld",
+      "href": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/bblocks.jsonld",
       "type": "application/ld+json",
       "title": "This Building Blocks Register in JSON-LD format"
     }

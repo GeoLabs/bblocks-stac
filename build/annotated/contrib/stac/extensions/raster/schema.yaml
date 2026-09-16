@@ -3,8 +3,8 @@ title: Raster Extension
 description: STAC Raster Extension for STAC Items and STAC Collections.
 allOf:
 - anyOf:
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - $ref: https://stac-extensions.github.io/raster/v2.0.0/schema.json
 x-jsonld-extra-terms:
   raster:sampling:

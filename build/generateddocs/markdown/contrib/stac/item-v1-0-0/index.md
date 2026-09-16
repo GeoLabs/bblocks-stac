@@ -19,15 +19,15 @@ $schema: https://json-schema.org/draft/2020-12/schema
 allOf:
 - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
 - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/schema.yaml
-- $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+- $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - $ref: https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/schema.yaml)
 
 
 # JSON-LD Context
@@ -231,7 +231,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item-v1-0-0/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item-v1-0-0/context.jsonld)
 
 ## Sources
 
@@ -241,6 +241,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/item-v1-0-0`
 

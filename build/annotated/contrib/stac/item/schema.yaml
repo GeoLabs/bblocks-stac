@@ -6,7 +6,7 @@ description: This object represents the metadata for an item in a SpatioTemporal
 allOf:
 - $ref: https://ogcincubator.github.io/bblocks-ogcapi-records/build/annotated/api/records/v1/schemas/recordGeoJSON/schema.yaml
 - $ref: '#/definitions/core'
-- $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
+- $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
 - $ref: https://raw.githubusercontent.com/radiantearth/stac-spec/master/item-spec/json-schema/common.json
 definitions:
   core:

@@ -124,7 +124,7 @@ Ref to STAC example using version (1.0.0)
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld",
   "id": "polarwarp",
   "title": "Polarwarp",
   "created": "2025-10-13T16:54:34Z",
@@ -235,65 +235,65 @@ Ref to STAC example using version (1.0.0)
 #### ttl
 ```ttl
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix ns1: <fair:> .
+@prefix ns1: <http://www.iana.org/assignments/> .
 @prefix ns2: <osc:> .
-@prefix ns3: <http://www.iana.org/assignments/> .
+@prefix ns3: <fair:> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix stac: <https://w3id.org/ogc/stac/core/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.com/stac/example1/polarwarp> rdfs:label "Polarwarp" ;
-    ns1:Accessible_files 0e+00 ;
-    ns1:Accessible_general true ;
-    ns1:Accessible_protocols true ;
-    ns1:Findable_has_doi false ;
-    ns1:Findable_identifier true ;
-    ns1:Findable_indexed true ;
-    ns1:Findable_indexed_approved_data false ;
-    ns1:Findable_indexed_approved_metadata false ;
-    ns1:Findable_rich_metadata true ;
-    ns1:Findable_stac_assets false ;
-    ns1:Interoperable_controlled_vocabularies true ;
-    ns1:Interoperable_has_documentation false ;
-    ns1:Interoperable_related_links true ;
-    ns1:Interoperable_uses_formal_language true ;
-    ns1:Reusable_cloud_assets_rate 0e+00 ;
-    ns1:Reusable_has_access_example false ;
-    ns1:Reusable_has_license true ;
-    ns1:Reusable_has_visualisation false ;
-    ns1:Reusable_rich_descriptions true ;
-    ns1:Reusable_workflow_exists true ;
+    ns3:Accessible_files 0e+00 ;
+    ns3:Accessible_general true ;
+    ns3:Accessible_protocols true ;
+    ns3:Findable_has_doi false ;
+    ns3:Findable_identifier true ;
+    ns3:Findable_indexed true ;
+    ns3:Findable_indexed_approved_data false ;
+    ns3:Findable_indexed_approved_metadata false ;
+    ns3:Findable_rich_metadata true ;
+    ns3:Findable_stac_assets false ;
+    ns3:Interoperable_controlled_vocabularies true ;
+    ns3:Interoperable_has_documentation false ;
+    ns3:Interoperable_related_links true ;
+    ns3:Interoperable_uses_formal_language true ;
+    ns3:Reusable_cloud_assets_rate 0e+00 ;
+    ns3:Reusable_has_access_example false ;
+    ns3:Reusable_has_license true ;
+    ns3:Reusable_has_visualisation false ;
+    ns3:Reusable_rich_descriptions true ;
+    ns3:Reusable_workflow_exists true ;
     dcterms:description """Polarwarp product
 
 Forecast rasters (+1h … +6h) produced by the Polarwarp workflow using NEXTSIM model and S1 scenes.""" ;
     dcterms:extent [ ] ;
     dcterms:license "various" ;
     dcterms:type "Collection" ;
-    rdfs:seeAlso [ ns3:relation <http://www.iana.org/assignments/relation/via> ;
-            oa:hasTarget <https://github.com/gtif-cerulean/polarwarp> ],
-        [ rdfs:label "Products" ;
+    rdfs:seeAlso [ rdfs:label "Products" ;
             dcterms:type "application/json" ;
-            ns3:relation <http://www.iana.org/assignments/relation/parent> ;
+            ns1:relation <http://www.iana.org/assignments/relation/parent> ;
             oa:hasTarget <https://example.com/stac/catalog.json> ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/item> ;
+            oa:hasTarget <https://example.com/stac/example1/item.json> ],
+        [ rdfs:label "Experiment: Polarwarp" ;
+            dcterms:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            oa:hasTarget <https://example.com/experiments/polarwarp/record.json> ],
+        [ rdfs:label "Project: Cerulean Information Factory" ;
+            dcterms:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/related> ;
+            oa:hasTarget <https://example.com/projects/cerulean-information-factory/collection.json> ],
+        [ ns1:relation <http://www.iana.org/assignments/relation/via> ;
+            oa:hasTarget <https://github.com/gtif-cerulean/polarwarp> ],
         [ rdfs:label "Theme: Cryosphere" ;
             dcterms:type "application/json" ;
-            ns3:relation <http://www.iana.org/assignments/relation/related> ;
+            ns1:relation <http://www.iana.org/assignments/relation/related> ;
             oa:hasTarget <https://example.com/themes/cryosphere/catalog.json> ],
         [ rdfs:label "Open Science Catalog" ;
             dcterms:type "application/json" ;
-            ns3:relation <http://www.iana.org/assignments/relation/root> ;
-            oa:hasTarget <https://example.com/catalog.json> ],
-        [ ns3:relation <http://www.iana.org/assignments/relation/item> ;
-            oa:hasTarget <https://example.com/stac/example1/item.json> ],
-        [ rdfs:label "Project: Cerulean Information Factory" ;
-            dcterms:type "application/json" ;
-            ns3:relation <http://www.iana.org/assignments/relation/related> ;
-            oa:hasTarget <https://example.com/projects/cerulean-information-factory/collection.json> ],
-        [ rdfs:label "Experiment: Polarwarp" ;
-            dcterms:type "application/json" ;
-            ns3:relation <http://www.iana.org/assignments/relation/related> ;
-            oa:hasTarget <https://example.com/experiments/polarwarp/record.json> ] ;
+            ns1:relation <http://www.iana.org/assignments/relation/root> ;
+            oa:hasTarget <https://example.com/catalog.json> ] ;
     stac:hasExtension "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
         "https://stac-extensions.github.io/themes/v1.0.0/schema.json" ;
     stac:version "1.0.0" ;
@@ -311,7 +311,7 @@ $schema: https://json-schema.org/draft/2020-12/schema
 description: STAC Collection V1.0.0
 allOf:
 - $ref: https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
-- $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
+- $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
 - type: object
   properties:
     links:
@@ -323,8 +323,8 @@ allOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/schema.yaml)
 
 
 # JSON-LD Context
@@ -394,7 +394,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection-v1-0-0/context.jsonld)
 
 ## Sources
 
@@ -404,6 +404,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/collection-v1-0-0`
 

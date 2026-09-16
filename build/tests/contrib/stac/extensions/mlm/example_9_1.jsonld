@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/mlm/context.jsonld",
   "$comment": "STAC item auto-generated using unet_mlm() in https://raw.githubusercontent.com/stac-extensions/mlm/refs/heads/main/stac_model/examples.py",
   "type": "Feature",
   "stac_version": "1.0.0",

@@ -185,7 +185,7 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/context.jsonld",
   "id": "eo-collection",
   "type": "Collection",
   "stac_extensions": [
@@ -540,7 +540,7 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/context.jsonld",
   "stac_version": "1.1.0",
   "stac_extensions": [
     "https://stac-extensions.github.io/eo/v2.0.0/schema.json"
@@ -712,15 +712,15 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
     dcterms:modified "2020-12-12T01:48:13.725Z" ;
     rdfs:seeAlso [ rdfs:label "Simple Example Collection" ;
             dcterms:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/parent> ;
+            oa:hasTarget <https://example.com/stac/eo/example-2/collection.json> ],
+        [ rdfs:label "Simple Example Collection" ;
+            dcterms:type "application/json" ;
             ns1:relation <http://www.iana.org/assignments/relation/collection> ;
             oa:hasTarget <https://example.com/stac/eo/example-2/collection.json> ],
         [ rdfs:label "Simple Example Collection" ;
             dcterms:type "application/json" ;
             ns1:relation <http://www.iana.org/assignments/relation/root> ;
-            oa:hasTarget <https://example.com/stac/eo/example-2/collection.json> ],
-        [ rdfs:label "Simple Example Collection" ;
-            dcterms:type "application/json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/parent> ;
             oa:hasTarget <https://example.com/stac/eo/example-2/collection.json> ] ;
     geojson:bbox ( 1.729117e+02 1.343885e+00 1.729547e+02 1.369048e+00 ) ;
     geojson:geometry [ a geojson:Polygon ;
@@ -739,14 +739,14 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
 
 <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif> dcterms:format "image/tiff; application=geotiff; profile=cloud-optimized" ;
     dcterms:title "3-Band Visual" ;
-    ns2:bands [ ns2:name "band3" ;
-            eo:center_wavelength 6.45e-01 ;
-            eo:common_name eo:red ;
-            eo:full_width_half_max 9e-02 ],
-        [ ns2:name "band1" ;
+    ns2:bands [ ns2:name "band1" ;
             eo:center_wavelength 4.7e-01 ;
             eo:common_name eo:blue ;
             eo:full_width_half_max 7e-02 ],
+        [ ns2:name "band3" ;
+            eo:center_wavelength 6.45e-01 ;
+            eo:common_name eo:red ;
+            eo:full_width_half_max 9e-02 ],
         [ ns2:name "band2" ;
             eo:center_wavelength 5.6e-01 ;
             eo:common_name eo:green ;
@@ -755,7 +755,17 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
 
 <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2_analytic.tif> dcterms:format "image/tiff; application=geotiff; profile=cloud-optimized" ;
     dcterms:title "4-Band Analytic" ;
-    ns2:bands [ ns2:name "band3" ;
+    ns2:bands [ ns2:name "band2" ;
+            eo:center_wavelength 5.6e-01 ;
+            eo:common_name eo:green ;
+            eo:full_width_half_max 8e-02 ;
+            eo:solar_illumination 1.82324e+03 ],
+        [ ns2:name "band4" ;
+            eo:center_wavelength 8e-01 ;
+            eo:common_name eo:nir ;
+            eo:full_width_half_max 1.52e-01 ;
+            eo:solar_illumination 1.04163e+03 ],
+        [ ns2:name "band3" ;
             eo:center_wavelength 6.45e-01 ;
             eo:common_name eo:red ;
             eo:full_width_half_max 9e-02 ;
@@ -764,17 +774,7 @@ EO data is considered to be data that represents a snapshot of the Earth for a s
             eo:center_wavelength 4.7e-01 ;
             eo:common_name eo:blue ;
             eo:full_width_half_max 7e-02 ;
-            eo:solar_illumination 1.95966e+03 ],
-        [ ns2:name "band4" ;
-            eo:center_wavelength 8e-01 ;
-            eo:common_name eo:nir ;
-            eo:full_width_half_max 1.52e-01 ;
-            eo:solar_illumination 1.04163e+03 ],
-        [ ns2:name "band2" ;
-            eo:center_wavelength 5.6e-01 ;
-            eo:common_name eo:green ;
-            eo:full_width_half_max 8e-02 ;
-            eo:solar_illumination 1.82324e+03 ] ;
+            eo:solar_illumination 1.95966e+03 ] ;
     stac:hasAssetroles "data"^^xsd:string ;
     eo:cloud_cover 1.2e+00 .
 
@@ -789,8 +789,8 @@ title: Electro-Optical Extension
 description: STAC Electro-Optical Extension for STAC Items and STAC Collections.
 allOf:
 - anyOf:
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - $ref: https://stac-extensions.github.io/eo/v2.0.0/schema.json
 x-jsonld-extra-terms:
   eo:cloud_cover:
@@ -839,8 +839,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/schema.yaml)
 
 
 # JSON-LD Context
@@ -1092,7 +1092,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo/context.jsonld)
 
 ## Sources
 
@@ -1102,6 +1102,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/extensions/eo`
 

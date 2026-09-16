@@ -4,8 +4,8 @@ description: Indicates from which processing chain data originates and how the d
   itself has been produced.
 allOf:
 - anyOf:
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - $ref: https://stac-extensions.github.io/processing/v1.2.0/schema.json
 - properties:
     processing:software:

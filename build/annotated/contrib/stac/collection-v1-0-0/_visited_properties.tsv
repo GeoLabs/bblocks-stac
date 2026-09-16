@@ -1,8 +1,8 @@
 path	@id	schema
 /stac_version		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
-/stac_extensions	https://w3id.org/ogc/stac/core/hasExtension	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/type	@type	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/id	@id	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
+/stac_extensions	https://w3id.org/ogc/stac/core/hasExtension	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/type	@type	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/id	@id	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
 /title		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /description		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /keywords		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
@@ -12,12 +12,12 @@ path	@id	schema
 /providers/description		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /providers/roles		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /providers/url		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
-/extent	http://purl.org/dc/terms/extent	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
+/extent	http://purl.org/dc/terms/extent	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
 /extent/spatial		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /extent/spatial/bbox		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /extent/temporal		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /extent/temporal/interval		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
-/assets	https://w3id.org/ogc/stac/core/hasAsset	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml
+/assets	https://w3id.org/ogc/stac/core/hasAsset	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml
 /assets/href		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json
 /assets/title		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json
 /assets/description		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/item.json
@@ -39,7 +39,7 @@ path	@id	schema
 /assets/providers/description		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/provider.json
 /assets/providers/roles		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/provider.json
 /assets/providers/url		https://schemas.stacspec.org/v1.0.0/item-spec/json-schema/provider.json
-/links	http://www.w3.org/2000/01/rdf-schema#seeAlso	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
+/links	http://www.w3.org/2000/01/rdf-schema#seeAlso	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
 /links/href	http://www.w3.org/ns/oa#hasTarget	https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
 /links/rel	http://www.iana.org/assignments/relation	https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
 /links/type	http://purl.org/dc/terms/type	https://opengeospatial.github.io/bblocks/annotated-schemas/ogc-utils/json-link/schema.yaml
@@ -93,12 +93,12 @@ path	@id	schema
 /summaries/_anyOf/0/not		http://json-schema.org/draft-07/schema
 /summaries/_anyOf/1/minimum		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
 /summaries/_anyOf/1/maximum		https://schemas.stacspec.org/v1.0.0/collection-spec/json-schema/collection.json
-/item_assets		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/item_assets/href		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/item_assets/title	http://purl.org/dc/terms/title	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/item_assets/description	http://purl.org/dc/terms/description	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/item_assets/type	@type	https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-/item_assets/roles		https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets/href		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets/title	http://purl.org/dc/terms/title	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets/description	http://purl.org/dc/terms/description	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets/type	@type	https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+/item_assets/roles		https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
 /item_assets/keywords		https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/basics.json
 /item_assets/bands		https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/bands.json
 /item_assets/bands/datetime		https://schemas.stacspec.org/v1.1.0/item-spec/json-schema/datetime.json

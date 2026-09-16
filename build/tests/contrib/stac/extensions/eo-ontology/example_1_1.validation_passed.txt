@@ -1,5 +1,5 @@
 Validation report for ogc.contrib.stac.extensions.eo-ontology - STAC Electro-Optical Extension Ontology
-Generated 2026-09-11T22:57:08.928205+00:00
+Generated 2026-09-16T14:24:18.040880+00:00
 === Files ===
 Using example_1_1.ttl from examples
 Output Turtle example_1_1.ttl created
@@ -15,10 +15,10 @@ Validation result for _sources/extensions/eo-ontology/shapes.shacl:
   
 Focus nodes for _sources/extensions/eo-ontology/shapes.shacl:
  - Shape eo:SnowCoverShape: ex:landsat-item
- - Shape eo:CommonNameShape: ex:red-band
  - Shape eo:CloudCoverShape: ex:landsat-item
- - Shape eo:FullWidthHalfMaxShape: ex:red-band
  - Shape eo:CenterWavelengthShape: ex:red-band
+ - Shape eo:CommonNameShape: ex:red-band
+ - Shape eo:FullWidthHalfMaxShape: ex:red-band
  - Shape eo:SolarIlluminationShape: *none*
 
 === End SHACL ===

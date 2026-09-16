@@ -12,7 +12,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2026-09-11",
+  "dateOfLastChange": "2023-12-09",
   "dependsOn": [
     "ogc.contrib.stac.core-ontology",
     "ogc.contrib.stac.components.assets-ontology"
@@ -30,26 +30,26 @@
   ],
   "shaclShapes": {
     "ogc.contrib.stac.core-ontology": [
-      "https://ogcincubator.github.io/bblocks-stac/_sources/core-ontology/shapes.shacl"
+      "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/core-ontology/shapes.shacl"
     ],
     "ogc.model.cross-domain.prov": [
       "https://ogcincubator.github.io/cross-domain-model/_sources/prov/shapes.shacl"
     ],
     "ogc.contrib.stac.components.assets-ontology": [
-      "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets-ontology/shapes.shacl"
+      "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets-ontology/shapes.shacl"
     ]
   },
-  "ldContext": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld",
+  "ldContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld",
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.json"
+    "application/yaml": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/schema.yaml",
-  "sourceLdContext": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/context.jsonld",
-  "resolvedSchemaProperties": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/resolvedProperties.json",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/",
+  "sourceSchema": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/schema.yaml",
+  "sourceLdContext": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/context.jsonld",
+  "resolvedSchemaProperties": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/resolvedProperties.json",
+  "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets/",
+  "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/components/assets/",
   "examples": [
     {
       "title": "Core asset types",
@@ -57,21 +57,21 @@
       "snippets": [
         {
           "language": "json",
-          "ref": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/examples/core.json",
+          "ref": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/examples/core.json",
           "base-uri": "https://example.com/stac/example1/",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_1_1.json",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_1_1.json",
           "sizeBytes": 510,
           "code": "{\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    }\n  }\n}"
         },
         {
           "language": "jsonld",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_1_1.jsonld",
-          "sizeBytes": 633,
-          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld\",\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    }\n  }\n}"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_1_1.jsonld",
+          "sizeBytes": 654,
+          "code": "{\n  \"@context\": \"https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld\",\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    }\n  }\n}"
         },
         {
           "language": "ttl",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_1_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_1_1.ttl",
           "sizeBytes": 811,
           "code": "@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix ns1: <https://w3id.org/ogc/stac/assets/> .\n@prefix stac: <https://w3id.org/ogc/stac/core/> .\n\n<https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg> dcterms:format \"image/jpeg\" ;\n    dcterms:title \"Thumbnail\" ;\n    stac:hasAssetroles \"thumbnail\"^^<xsd:string> .\n\n<https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif> dcterms:format \"image/tiff; application=geotiff; profile=cloud-optimized\" ;\n    dcterms:title \"3-Band Visual\" ;\n    stac:hasAssetroles \"visual\"^^<xsd:string> .\n\n[] stac:hasAsset [ ns1:thumbnail <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg> ;\n            ns1:visual <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif> ] .\n\n"
         }
@@ -83,21 +83,21 @@
       "snippets": [
         {
           "language": "json",
-          "ref": "https://ogcincubator.github.io/bblocks-stac/_sources/components/assets/examples/coreplus.json",
+          "ref": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/components/assets/examples/coreplus.json",
           "base-uri": "https://example.com/stac/example1/",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_2_1.json",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_2_1.json",
           "sizeBytes": 788,
           "code": "{\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    },\n    \"model\": {\n      \"href\": \"https://huggingface.co/example/model-card\",\n      \"title\": \"Pytorch weights checkpoint\",\n      \"description\": \"Example model.\",\n      \"type\": \"text/html\",\n      \"roles\": [\n        \"mlm:model\"\n      ],\n      \"mlm:artifact_type\": \"torch.save\"\n    }\n  }\n}"
         },
         {
           "language": "jsonld",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_2_1.jsonld",
-          "sizeBytes": 911,
-          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld\",\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    },\n    \"model\": {\n      \"href\": \"https://huggingface.co/example/model-card\",\n      \"title\": \"Pytorch weights checkpoint\",\n      \"description\": \"Example model.\",\n      \"type\": \"text/html\",\n      \"roles\": [\n        \"mlm:model\"\n      ],\n      \"mlm:artifact_type\": \"torch.save\"\n    }\n  }\n}"
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_2_1.jsonld",
+          "sizeBytes": 932,
+          "code": "{\n  \"@context\": \"https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld\",\n  \"assets\": {\n    \"visual\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif\",\n      \"type\": \"image/tiff; application=geotiff; profile=cloud-optimized\",\n      \"title\": \"3-Band Visual\",\n      \"roles\": [\n        \"visual\"\n      ]\n    },\n    \"thumbnail\": {\n      \"href\": \"https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg\",\n      \"title\": \"Thumbnail\",\n      \"type\": \"image/jpeg\",\n      \"roles\": [\n        \"thumbnail\"\n      ]\n    },\n    \"model\": {\n      \"href\": \"https://huggingface.co/example/model-card\",\n      \"title\": \"Pytorch weights checkpoint\",\n      \"description\": \"Example model.\",\n      \"type\": \"text/html\",\n      \"roles\": [\n        \"mlm:model\"\n      ],\n      \"mlm:artifact_type\": \"torch.save\"\n    }\n  }\n}"
         },
         {
           "language": "ttl",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/components/assets/example_2_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/components/assets/example_2_1.ttl",
           "sizeBytes": 1155,
           "code": "@prefix dcterms: <http://purl.org/dc/terms/> .\n@prefix ns1: <https://w3id.org/ogc/stac/assets/> .\n@prefix ns2: <mlm:> .\n@prefix stac: <https://w3id.org/ogc/stac/core/> .\n\n<https://huggingface.co/example/model-card> dcterms:description \"Example model.\" ;\n    dcterms:format \"text/html\" ;\n    dcterms:title \"Pytorch weights checkpoint\" ;\n    stac:hasAssetroles \"mlm:model\"^^<xsd:string> ;\n    ns2:artifact_type \"torch.save\" .\n\n<https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg> dcterms:format \"image/jpeg\" ;\n    dcterms:title \"Thumbnail\" ;\n    stac:hasAssetroles \"thumbnail\"^^<xsd:string> .\n\n<https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif> dcterms:format \"image/tiff; application=geotiff; profile=cloud-optimized\" ;\n    dcterms:title \"3-Band Visual\" ;\n    stac:hasAssetroles \"visual\"^^<xsd:string> .\n\n[] stac:hasAsset [ ns1:model <https://huggingface.co/example/model-card> ;\n            ns1:thumbnail <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.jpg> ;\n            ns1:visual <https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif> ] .\n\n"
         }
@@ -105,6 +105,6 @@
     }
   ],
   "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ntitle: STAC Asset\ntype: object\ndescription: This object represents a set of assets\nproperties:\n  assets:\n    $ref: '#/definitions/assets'\n    x-jsonld-id: https://w3id.org/ogc/stac/core/hasAsset\n    x-jsonld-container: '@set'\n    x-jsonld-vocab: https://w3id.org/ogc/stac/assets/\n    x-jsonld-extra-terms:\n      href: '@id'\n      type: http://purl.org/dc/terms/format\n      title: http://purl.org/dc/terms/title\n      description: http://purl.org/dc/terms/description\n      roles:\n        x-jsonld-id: https://w3id.org/ogc/stac/core/hasAssetroles\n        x-jsonld-type: xsd:string\n        x-jsonld-container: '@set'\ndefinitions:\n  assets:\n    title: Asset links\n    description: Links to assets\n    type: object\n    additionalProperties:\n      $ref: '#/definitions/asset'\n  asset:\n    allOf:\n    - type: object\n      required:\n      - href\n      properties:\n        href:\n          title: Asset reference\n          type: string\n          format: iri-reference\n          minLength: 1\n        title:\n          title: Asset title\n          type: string\n        description:\n          title: Asset description\n          type: string\n        type:\n          title: Asset type\n          type: string\n        roles:\n          title: Asset roles\n          type: array\n          items:\n            type: string\nx-jsonld-prefixes:\n  stac: https://w3id.org/ogc/stac/core/\n  dct: http://purl.org/dc/terms/\n  assets: https://w3id.org/ogc/stac/core/hasAsset\n  rdfs: http://www.w3.org/2000/01/rdf-schema#\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-stac",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-stac",
   "gitPath": "_sources/components/assets"
 }

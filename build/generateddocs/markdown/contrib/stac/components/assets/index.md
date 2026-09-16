@@ -39,7 +39,7 @@ This is the simple item  asset example from the STAC specification.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld",
   "assets": {
     "visual": {
       "href": "https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif",
@@ -122,7 +122,7 @@ Includes asset types not defined by core
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld",
   "assets": {
     "visual": {
       "href": "https://storage.googleapis.com/open-cogs/stac-examples/20201211_223832_CS2.tif",
@@ -246,8 +246,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.yaml)
 
 
 # JSON-LD Context
@@ -280,7 +280,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/context.jsonld)
 
 ## Sources
 
@@ -290,6 +290,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/components/assets`
 

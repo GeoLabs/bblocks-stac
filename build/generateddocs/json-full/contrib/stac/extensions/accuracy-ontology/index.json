@@ -26,23 +26,23 @@
   ],
   "shaclShapes": {
     "ogc.contrib.stac.extensions.accuracy-ontology": [
-      "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy-ontology/shapes.shacl"
+      "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy-ontology/shapes.shacl"
     ]
   },
   "rules": [],
   "dateTimeAddition": "2026-08-25T00:00:00Z",
-  "dateOfLastChange": "2026-09-11",
-  "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/accuracy-ontology/ontology.ttl",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/accuracy-ontology/",
+  "dateOfLastChange": "2026-08-25",
+  "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/accuracy-ontology/ontology.ttl",
+  "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/accuracy-ontology/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy-ontology/",
+  "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/accuracy-ontology/",
   "examples": [
     {
       "title": "STAC Item with geometric and measurement accuracy",
       "snippets": [
         {
           "language": "turtle",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/accuracy-ontology/example_1_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/accuracy-ontology/example_1_1.ttl",
           "sizeBytes": 581,
           "code": "@prefix stac:     <https://w3id.org/ogc/stac/core/> .\n@prefix accuracy: <https://w3id.org/ogc/stac/accuracy/> .\n@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .\n@prefix ex:       <https://example.org/stac/> .\n\nex:S2A_MSIL2A_item a stac:Item ;\n    accuracy:geometric_x_bias      \"0.5\"^^xsd:double ;\n    accuracy:geometric_y_bias      \"0.3\"^^xsd:double ;\n    accuracy:geometric_x_stddev    \"1.1\"^^xsd:double ;\n    accuracy:geometric_y_stddev    \"1.0\"^^xsd:double ;\n    accuracy:geometric_rmse        \"1.2\"^^xsd:double ;\n    accuracy:measurement_absolute  \"0.15\"^^xsd:double .\n"
         }
@@ -53,7 +53,7 @@
       "snippets": [
         {
           "language": "turtle",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/accuracy-ontology/example_2_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/accuracy-ontology/example_2_1.ttl",
           "sizeBytes": 306,
           "code": "@prefix stac:     <https://w3id.org/ogc/stac/core/> .\n@prefix accuracy: <https://w3id.org/ogc/stac/accuracy/> .\n@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .\n@prefix ex:       <https://example.org/stac/> .\n\nex:collection a stac:Collection ;\n    accuracy:measurement_relative \"0.02\"^^xsd:double .\n"
         }
@@ -61,6 +61,6 @@
     }
   ],
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/ogcincubator/bblocks-stac",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-stac",
   "gitPath": "_sources/extensions/accuracy-ontology"
 }

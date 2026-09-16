@@ -1,5 +1,5 @@
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/osc/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/osc/context.jsonld",
   "type": "Collection",
   "id": "absolute-sea-level-heights-baltics-sar-hsu",
   "stac_version": "1.0.0",

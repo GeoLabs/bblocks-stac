@@ -26,7 +26,7 @@
   ],
   "shaclShapes": {
     "ogc.contrib.stac.extensions.eo-ontology": [
-      "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/shapes.shacl"
+      "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/shapes.shacl"
     ]
   },
   "shaclClosures": [
@@ -34,18 +34,18 @@
   ],
   "rules": [],
   "dateTimeAddition": "2026-08-25T00:00:00Z",
-  "dateOfLastChange": "2026-09-11",
-  "ontology": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/eo-ontology/ontology.ttl",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-stac/_sources/extensions/eo-ontology/",
+  "dateOfLastChange": "2026-08-25",
+  "ontology": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/eo-ontology/ontology.ttl",
+  "sourceFiles": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/_sources/extensions/eo-ontology/",
   "validationPassed": true,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo-ontology/",
+  "testOutputs": "https://github.com/GeoLabs/bblocks-stac/blob/master/build/tests/contrib/stac/extensions/eo-ontology/",
   "examples": [
     {
       "title": "STAC Item band with a common name (Landsat-style red band)",
       "snippets": [
         {
           "language": "turtle",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/eo-ontology/example_1_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/eo-ontology/example_1_1.ttl",
           "sizeBytes": 451,
           "code": "@prefix stac: <https://w3id.org/ogc/stac/core/> .\n@prefix eo:   <https://w3id.org/ogc/stac/eo/> .\n@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .\n@prefix ex:   <https://example.org/stac/> .\n\nex:landsat-item a stac:Item ;\n    eo:cloud_cover \"12.5\"^^xsd:double ;\n    eo:snow_cover  \"0\"^^xsd:double .\n\nex:red-band\n    eo:common_name          eo:red ;\n    eo:center_wavelength    \"0.655\"^^xsd:double ;\n    eo:full_width_half_max  \"0.07\"^^xsd:double .\n"
         }
@@ -56,7 +56,7 @@
       "snippets": [
         {
           "language": "turtle",
-          "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/eo-ontology/example_2_1.ttl",
+          "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/eo-ontology/example_2_1.ttl",
           "sizeBytes": 283,
           "code": "@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n@prefix eo:   <https://w3id.org/ogc/stac/eo/> .\n\neo:red a skos:Concept ;\n    skos:inScheme eo:CommonBandNameScheme ;\n    skos:notation \"red\" ;\n    skos:prefLabel \"Red\"@en ;\n    skos:definition \"Band range: 0.62 - 0.69\u00b5m.\"@en .\n"
         }
@@ -64,6 +64,6 @@
     }
   ],
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/ogcincubator/bblocks-stac",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-stac",
   "gitPath": "_sources/extensions/eo-ontology"
 }

@@ -10,7 +10,7 @@
       "$ref": "https://raw.githubusercontent.com/radiantearth/stac-spec/master/item-spec/json-schema/common.json"
     },
     {
-      "$ref": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/components/assets/schema.json"
+      "$ref": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/components/assets/schema.json"
     }
   ],
   "definitions": {

@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.contrib.stac.extensions.mlm-ontology - STAC Machine Learning Model Extension Ontology",
   "bblockName": "STAC Machine Learning Model Extension Ontology",
   "bblockId": "ogc.contrib.stac.extensions.mlm-ontology",
-  "generated": "2026-09-11T22:57:09.022350+00:00",
+  "generated": "2026-09-16T14:24:18.132795+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/mlm-ontology/example_1_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/mlm-ontology/example_1_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/mlm-ontology/example_1_1.ttl",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -41,7 +41,7 @@
           "entries": [
             {
               "isError": false,
-              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/mlm-ontology/ontology.ttl\n - /github/workspace/_sources/extensions/mlm-ontology/skos.ttl"
+              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/mlm-ontology/skos.ttl\n - /github/workspace/_sources/extensions/mlm-ontology/ontology.ttl"
             },
             {
               "op": "shacl-report",
@@ -53,21 +53,16 @@
             {
               "shaclFile": "_sources/extensions/mlm-ontology/shapes.shacl",
               "focusNodes": {
-                "mlm:InputStructureShape": {
-                  "nodes": []
-                },
                 "mlm:ModelInputShape": {
                   "nodes": []
                 },
-                "mlm:ModelRootShape": {
-                  "nodes": [
-                    "ex:resnet18-eurosat"
-                  ]
+                "mlm:InputStructureShape": {
+                  "nodes": []
                 },
                 "mlm:ModelOutputShape": {
                   "nodes": []
                 },
-                "mlm:ValueScalingShape": {
+                "mlm:ResultStructureShape": {
                   "nodes": []
                 },
                 "mlm:AcceleratorShape": {
@@ -75,12 +70,17 @@
                     "ex:resnet18-eurosat"
                   ]
                 },
-                "mlm:ResultStructureShape": {
+                "mlm:ValueScalingShape": {
                   "nodes": []
+                },
+                "mlm:ModelRootShape": {
+                  "nodes": [
+                    "ex:resnet18-eurosat"
+                  ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/mlm-ontology/shapes.shacl:\n - Shape mlm:InputStructureShape: *none*\n - Shape mlm:ModelInputShape: *none*\n - Shape mlm:ModelRootShape: ex:resnet18-eurosat\n - Shape mlm:ModelOutputShape: *none*\n - Shape mlm:ValueScalingShape: *none*\n - Shape mlm:AcceleratorShape: ex:resnet18-eurosat\n - Shape mlm:ResultStructureShape: *none*\n"
+              "message": "Focus nodes for _sources/extensions/mlm-ontology/shapes.shacl:\n - Shape mlm:ModelInputShape: *none*\n - Shape mlm:InputStructureShape: *none*\n - Shape mlm:ModelOutputShape: *none*\n - Shape mlm:ResultStructureShape: *none*\n - Shape mlm:AcceleratorShape: ex:resnet18-eurosat\n - Shape mlm:ValueScalingShape: *none*\n - Shape mlm:ModelRootShape: ex:resnet18-eurosat\n"
             }
           ]
         }
@@ -91,7 +91,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/contrib/stac/extensions/mlm-ontology/example_2_1.ttl",
-        "url": "https://ogcincubator.github.io/bblocks-stac/build/tests/contrib/stac/extensions/mlm-ontology/example_2_1.ttl",
+        "url": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/tests/contrib/stac/extensions/mlm-ontology/example_2_1.ttl",
         "exampleIndex": 2,
         "snippetIndex": 1,
         "language": "text/turtle"
@@ -122,7 +122,7 @@
           "entries": [
             {
               "isError": false,
-              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/mlm-ontology/ontology.ttl\n - /github/workspace/_sources/extensions/mlm-ontology/skos.ttl"
+              "message": "Using SHACL closure graph sources (declared closures, ontologies and RDF data resources):\n - /github/workspace/_sources/extensions/mlm-ontology/skos.ttl\n - /github/workspace/_sources/extensions/mlm-ontology/ontology.ttl"
             },
             {
               "op": "shacl-report",
@@ -134,30 +134,30 @@
             {
               "shaclFile": "_sources/extensions/mlm-ontology/shapes.shacl",
               "focusNodes": {
-                "mlm:InputStructureShape": {
-                  "nodes": []
-                },
                 "mlm:ModelInputShape": {
                   "nodes": []
                 },
-                "mlm:ModelRootShape": {
+                "mlm:InputStructureShape": {
                   "nodes": []
                 },
                 "mlm:ModelOutputShape": {
                   "nodes": []
                 },
-                "mlm:ValueScalingShape": {
+                "mlm:ResultStructureShape": {
                   "nodes": []
                 },
                 "mlm:AcceleratorShape": {
                   "nodes": []
                 },
-                "mlm:ResultStructureShape": {
+                "mlm:ValueScalingShape": {
+                  "nodes": []
+                },
+                "mlm:ModelRootShape": {
                   "nodes": []
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/extensions/mlm-ontology/shapes.shacl:\n - Shape mlm:InputStructureShape: *none*\n - Shape mlm:ModelInputShape: *none*\n - Shape mlm:ModelRootShape: *none*\n - Shape mlm:ModelOutputShape: *none*\n - Shape mlm:ValueScalingShape: *none*\n - Shape mlm:AcceleratorShape: *none*\n - Shape mlm:ResultStructureShape: *none*\n"
+              "message": "Focus nodes for _sources/extensions/mlm-ontology/shapes.shacl:\n - Shape mlm:ModelInputShape: *none*\n - Shape mlm:InputStructureShape: *none*\n - Shape mlm:ModelOutputShape: *none*\n - Shape mlm:ResultStructureShape: *none*\n - Shape mlm:AcceleratorShape: *none*\n - Shape mlm:ValueScalingShape: *none*\n - Shape mlm:ModelRootShape: *none*\n"
             }
           ]
         }

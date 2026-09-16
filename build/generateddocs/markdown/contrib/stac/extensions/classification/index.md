@@ -138,7 +138,7 @@ STAC Classification Extension for STAC Items and STAC Collections.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld",
   "type": "Collection",
   "id": "103001005D31F500",
   "stac_version": "1.0.0",
@@ -274,14 +274,14 @@ STAC Classification Extension for STAC Items and STAC Collections.
     dcterms:description "103001005D31F500 ARD Tiles" ;
     dcterms:extent [ ] ;
     rdfs:seeAlso [ dcterms:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/root> ;
+            oa:hasTarget <https://example.com/stac/classification/order_collections/5867496013686833273_root_collection.json> ],
+        [ dcterms:type "application/json" ;
             ns1:relation <http://www.iana.org/assignments/relation/parent> ;
             oa:hasTarget <https://example.com/stac/classification/order_collections/5867496013686833273_root_collection.json> ],
         [ dcterms:type "application/json" ;
             ns1:relation <http://www.iana.org/assignments/relation/item> ;
-            oa:hasTarget <https://example.com/stac/classification/10/120020223032/2016-10-08/103001005D31F500.json> ],
-        [ dcterms:type "application/json" ;
-            ns1:relation <http://www.iana.org/assignments/relation/root> ;
-            oa:hasTarget <https://example.com/stac/classification/order_collections/5867496013686833273_root_collection.json> ] ;
+            oa:hasTarget <https://example.com/stac/classification/10/120020223032/2016-10-08/103001005D31F500.json> ] ;
     dcat:license "proprietary" ;
     stac:hasExtension "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
         "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
@@ -679,7 +679,7 @@ STAC Classification Extension for STAC Items and STAC Collections.
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld",
   "stac_version": "1.0.0",
   "stac_extensions": [
     "https://crim-ca.github.io/mlm-extension/v1.0.0/schema.json",
@@ -1063,12 +1063,12 @@ STAC Classification Extension for STAC Items and STAC Collections.
 @prefix classification: <https://w3id.org/ogc/stac/classification/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geojson: <https://purl.org/geojson/vocab#> .
-@prefix ns1: <https://w3id.org/ogc/stac/assets/> .
-@prefix ns2: <raster:> .
-@prefix ns3: <mlm:> .
-@prefix ns4: <http://www.iana.org/assignments/> .
-@prefix ns5: <ml-aoi:> .
-@prefix ns6: <file:> .
+@prefix ns1: <raster:> .
+@prefix ns2: <mlm:> .
+@prefix ns3: <http://www.iana.org/assignments/> .
+@prefix ns4: <https://w3id.org/ogc/stac/assets/> .
+@prefix ns5: <file:> .
+@prefix ns6: <ml-aoi:> .
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -1076,21 +1076,21 @@ STAC Classification Extension for STAC Items and STAC Collections.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://example.com/stac/classification/example-1/resnet-18_sentinel-2_all_moco_classification> a geojson:Feature ;
-    ns6:size 43000000 ;
+    ns5:size 43000000 ;
     dcterms:description "Sourced from torchgeo python library, identifier is ResNet18_Weights.SENTINEL2_ALL_MOCO" ;
-    rdfs:seeAlso [ dcterms:type "application/json" ;
-            ns4:relation <http://www.iana.org/assignments/relation/derived_from> ;
+    rdfs:seeAlso [ dcterms:type "application/geo+json" ;
+            ns3:relation <http://www.iana.org/assignments/relation/self> ;
+            oa:hasTarget <https://example.com/stac/classification/example-1/resnet-18_sentinel-2_all_moco_classification.json> ],
+        [ dcterms:type "application/json" ;
+            ns3:relation <http://www.iana.org/assignments/relation/derived_from> ;
             oa:hasTarget <https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a> ;
-            ns5:split "train" ],
-        [ dcterms:type "application/geo+json" ;
-            ns4:relation <http://www.iana.org/assignments/relation/self> ;
-            oa:hasTarget <https://example.com/stac/classification/example-1/resnet-18_sentinel-2_all_moco_classification.json> ] ;
+            ns6:split "train" ] ;
     geojson:bbox ( -7.88219e+00 3.713739e+01 2.791165e+01 5.821798e+01 ) ;
     geojson:geometry [ a geojson:Polygon ;
             geojson:coordinates ( ( ( -7.88219e+00 3.713739e+01 ) ( -7.88219e+00 5.821798e+01 ) ( 2.791165e+01 5.821798e+01 ) ( 2.791165e+01 3.713739e+01 ) ( -7.88219e+00 3.713739e+01 ) ) ) ] ;
     stac:end_datetime "9999-12-31T23:59:59+00:00"^^xsd:dateTime ;
-    stac:hasAsset [ ns1:source_code <https://github.com/microsoft/torchgeo/blob/61efd2e2c4df7ebe3bd03002ebbaeaa3cfe9885a/torchgeo/models/resnet.py#L207> ;
-            ns1:weights <https://huggingface.co/torchgeo/resnet18_sentinel2_all_moco/resolve/main/resnet18_sentinel2_all_moco-59bfdff9.pth> ] ;
+    stac:hasAsset [ ns4:source_code <https://github.com/microsoft/torchgeo/blob/61efd2e2c4df7ebe3bd03002ebbaeaa3cfe9885a/torchgeo/models/resnet.py#L207> ;
+            ns4:weights <https://huggingface.co/torchgeo/resnet18_sentinel2_all_moco/resolve/main/resnet18_sentinel2_all_moco-59bfdff9.pth> ] ;
     stac:hasExtension "https://crim-ca.github.io/mlm-extension/v1.0.0/schema.json",
         "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
         "https://stac-extensions.github.io/file/v1.0.0/schema.json",
@@ -1098,58 +1098,28 @@ STAC Classification Extension for STAC Items and STAC Collections.
         "https://stac-extensions.github.io/raster/v1.1.0/schema.json" ;
     stac:start_datetime "1900-01-01T00:00:00+00:00"^^xsd:dateTime ;
     stac:version "1.0.0" ;
-    ns3:accelerator "cuda" ;
-    ns3:accelerator_constrained false ;
-    ns3:accelerator_summary "Unknown" ;
-    ns3:architecture "ResNet" ;
-    ns3:batch_size_suggestion 256 ;
-    ns3:framework "pytorch" ;
-    ns3:framework_version "2.1.2+cu121" ;
-    ns3:input [ ] ;
-    ns3:memory_size 1 ;
-    ns3:name "Resnet-18 Sentinel-2 ALL MOCO" ;
-    ns3:output [ classification:classes [ classification:color_hint "008000" ;
-                    classification:description "Depicts forested areas with a deep green color." ;
-                    classification:name "Forest" ;
-                    classification:nodata false ;
-                    classification:title "Forest" ;
-                    classification:value 1 ],
-                [ classification:color_hint "7CFC00" ;
-                    classification:description "Illustrates pasture areas with a fresh lawn green color." ;
-                    classification:name "Pasture" ;
-                    classification:nodata false ;
-                    classification:title "Pasture" ;
-                    classification:value 5 ],
-                [ classification:color_hint "00FFFF" ;
-                    classification:description "Depicts rivers and water bodies with a vivid cyan color." ;
-                    classification:name "River" ;
-                    classification:nodata false ;
-                    classification:title "River" ;
-                    classification:value 8 ],
-                [ classification:color_hint "ADFF2F" ;
+    ns2:accelerator "cuda" ;
+    ns2:accelerator_constrained false ;
+    ns2:accelerator_summary "Unknown" ;
+    ns2:architecture "ResNet" ;
+    ns2:batch_size_suggestion 256 ;
+    ns2:framework "pytorch" ;
+    ns2:framework_version "2.1.2+cu121" ;
+    ns2:input [ ] ;
+    ns2:memory_size 1 ;
+    ns2:name "Resnet-18 Sentinel-2 ALL MOCO" ;
+    ns2:output [ classification:classes [ classification:color_hint "ADFF2F" ;
                     classification:description "Indicates areas of herbaceous vegetation with a green-yellow hue." ;
                     classification:name "HerbaceousVegetation" ;
                     classification:nodata false ;
                     classification:title "Herbaceous Vegetation" ;
                     classification:value 2 ],
-                [ classification:color_hint "FF0000" ;
-                    classification:description "Marks residential buildings with a bold red color." ;
-                    classification:name "Residential" ;
+                [ classification:color_hint "808080" ;
+                    classification:description "Denotes highways and roads with a neutral gray color." ;
+                    classification:name "Highway" ;
                     classification:nodata false ;
-                    classification:title "Residential Buildings" ;
-                    classification:value 7 ],
-                [ classification:color_hint "FFFF00" ;
-                    classification:description "Represents areas of annual crops with a bright yellow color." ;
-                    classification:name "AnnualCrop" ;
-                    classification:nodata false ;
-                    classification:title "Annual Crop" ;
-                    classification:value 0 ],
-                [ classification:color_hint "006400" ;
-                    classification:description "Represents permanent crop areas with a dark green color." ;
-                    classification:name "PermanentCrop" ;
-                    classification:nodata false ;
-                    classification:title "Permanent Crop" ;
-                    classification:value 6 ],
+                    classification:title "Gray" ;
+                    classification:value 3 ],
                 [ classification:color_hint "800080" ;
                     classification:description "Highlights industrial buildings with a vibrant purple color." ;
                     classification:name "Industrial" ;
@@ -1162,16 +1132,46 @@ STAC Classification Extension for STAC Items and STAC Collections.
                     classification:nodata false ;
                     classification:title "Sea and Lake" ;
                     classification:value 9 ],
-                [ classification:color_hint "808080" ;
-                    classification:description "Denotes highways and roads with a neutral gray color." ;
-                    classification:name "Highway" ;
+                [ classification:color_hint "006400" ;
+                    classification:description "Represents permanent crop areas with a dark green color." ;
+                    classification:name "PermanentCrop" ;
                     classification:nodata false ;
-                    classification:title "Gray" ;
-                    classification:value 3 ] ] ;
-    ns3:pretrained_source "EuroSat Sentinel-2" ;
-    ns3:tasks "classification" ;
-    ns3:total_parameters 11700000 ;
-    ns2:bands [ ],
+                    classification:title "Permanent Crop" ;
+                    classification:value 6 ],
+                [ classification:color_hint "7CFC00" ;
+                    classification:description "Illustrates pasture areas with a fresh lawn green color." ;
+                    classification:name "Pasture" ;
+                    classification:nodata false ;
+                    classification:title "Pasture" ;
+                    classification:value 5 ],
+                [ classification:color_hint "FFFF00" ;
+                    classification:description "Represents areas of annual crops with a bright yellow color." ;
+                    classification:name "AnnualCrop" ;
+                    classification:nodata false ;
+                    classification:title "Annual Crop" ;
+                    classification:value 0 ],
+                [ classification:color_hint "008000" ;
+                    classification:description "Depicts forested areas with a deep green color." ;
+                    classification:name "Forest" ;
+                    classification:nodata false ;
+                    classification:title "Forest" ;
+                    classification:value 1 ],
+                [ classification:color_hint "FF0000" ;
+                    classification:description "Marks residential buildings with a bold red color." ;
+                    classification:name "Residential" ;
+                    classification:nodata false ;
+                    classification:title "Residential Buildings" ;
+                    classification:value 7 ],
+                [ classification:color_hint "00FFFF" ;
+                    classification:description "Depicts rivers and water bodies with a vivid cyan color." ;
+                    classification:name "River" ;
+                    classification:nodata false ;
+                    classification:title "River" ;
+                    classification:value 8 ] ] ;
+    ns2:pretrained_source "EuroSat Sentinel-2" ;
+    ns2:tasks "classification" ;
+    ns2:total_parameters 11700000 ;
+    ns1:bands [ ],
         [ ],
         [ ],
         [ ],
@@ -1209,8 +1209,8 @@ title: Classification extension
 description: STAC Classification Extension for STAC Items and STAC Collections.
 allOf:
 - anyOf:
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/collection/schema.yaml
-  - $ref: https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/item/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/collection/schema.yaml
+  - $ref: https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/item/schema.yaml
 - $ref: https://stac-extensions.github.io/classification/v2.0.0/schema.json
 x-jsonld-extra-terms:
   classification:classes:
@@ -1258,8 +1258,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/schema.yaml)
+* YAML version: [schema.yaml](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/schema.json)
+* JSON version: [schema.json](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/schema.yaml)
 
 
 # JSON-LD Context
@@ -1508,7 +1508,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-stac/build/annotated/contrib/stac/extensions/classification/context.jsonld)
+[context.jsonld](https://raw.githubusercontent.com/GeoLabs/bblocks-stac/undefined/build/annotated/contrib/stac/extensions/classification/context.jsonld)
 
 ## Sources
 
@@ -1518,6 +1518,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-stac](https://github.com/ogcincubator/bblocks-stac)
+* URL: [https://github.com/GeoLabs/bblocks-stac](https://github.com/GeoLabs/bblocks-stac)
 * Path: `_sources/extensions/classification`
 
